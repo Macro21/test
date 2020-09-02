@@ -2,12 +2,8 @@
      "name": "myfirstteamsconnector",
      "version": "0.0.1",
      "description": "Generate a Microsoft Teams application.",
-     "engines": {
-          "node": "10.19.0",
-          "npm": "6.4.1"
-     },
      "scripts": {
-          "start": "node dist/server.js",
+          "start": "node server",
           "build": "gulp build",
           "debug": "gulp serve"
      },
