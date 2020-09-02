@@ -50,7 +50,7 @@ export class MyFirstTeamsConnectorConfig extends TeamsBaseComponent<IMyFirstTeam
                     microsoftTeams.settings.setValidityState(this.state.color !== undefined);
                     microsoftTeams.appInitialization.notifySuccess();
                });
-               //Prueba
+               // Prueba
                microsoftTeams.settings.registerOnSaveHandler((saveEvent: microsoftTeams.settings.SaveEvent) => {
                     // INFO: Should really be of type microsoftTeams.settings.Settings, but configName does not exist in the Teams JS SDK
                     const settings: any = {
